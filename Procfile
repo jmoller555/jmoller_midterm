@@ -1,0 +1,1 @@
+web: gunicorn jmoller_midterm.wsgi --log-file -
