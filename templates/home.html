@@ -1,10 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
+{% load staticfiles %}
 <div class="jumbotron">
   <h1>Jacquelyn Moller</h1>
   <p> A personal website about Jacquelyn. Please submit a message to contact me!</p>
   <p><a href="{% url 'contact_create' %}" class="btn btn-lg btn-primary">Submit contact form</a></p>
+  <img src="{% static "image/IMG_9821.jpg" %}" alt="profile_pic" width="200px" height="200px"/>
 </div>
+
 <div style=”width: 25%; height: 50px; overflow: auto; scrollbar-face-color: #CE7E00; scrollbar-shadow-color: #FFFFFF; br /scrollbar-highlight-color: #6F4709; scrollbar-3dlight-color:#11111; scrollbar-darkshadow-color: #6F4709; br /scrollbar-track-color: #FFE8C1; scrollbar-arrow-color: #6F4709;”>Hello my name is Jacquelyn. I am a student at Quinnipiac University majoring in Computer Information Systems. I am involved in many organizations on campus including: CIS Society, Accounting Society, The Community Action Project, and Gamma Phi Beta. This is my midterm assignment for my Web-Development Course, CIS381, which is a great class! :)</div>
 <h2>
 <script language="JavaScript1.2">
